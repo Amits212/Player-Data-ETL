@@ -27,3 +27,13 @@ JOIN continents co ON c.continent_code = co.code
 GROUP BY continent
 ORDER BY avg_fifa_score DESC;
 
+
+--Section for optimization answered:
+--
+--Join on Indexed Columns: Join on country_code which is indexed or a foreign key.
+--Aggregation: Use SUM function after converting the
+--value column to a numeric format, ensuring accurate calculations.
+--
+--Join Operations: Join tables on indexed columns to ensure efficient data retrieval.
+--Aggregation and Grouping: Use AVG function
+-- and group by continent to calculate average FIFA scores.
