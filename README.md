@@ -2,7 +2,7 @@
 
 ## Overview
 
-This ETL (Extract, Transform, Load) application processes player data and stores it in an AWS S3 bucket in Parquet format. The data is organized by continent, and the application supports incremental updates and parallel processing.
+This ETL application processes player data and stores it in an AWS S3 bucket in Parquet format. The data is organized by continent, and the application supports incremental updates and parallel processing.
 
 ## Prerequisites
 
@@ -19,7 +19,7 @@ Before running this application, ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/player-data-etl.git
+   git clone https://github.com/Amits212/Player-Data-ETL.git
    cd player-data-etl
 
 
