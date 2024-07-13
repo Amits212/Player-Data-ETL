@@ -1,0 +1,6 @@
+include/
+Lib/
+scripts/
+pyvenv.cfg
+.idea
+.env
